@@ -1,0 +1,57 @@
+
+@import url(CSS/Component/picture.css);
+
+@import url(CSS/Component/button.css);
+
+@import url(CSS/Component/textes.css);
+
+
+
+body{
+    background-color: #dfdfdf;
+}
+
+
+
+/*star*/
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+/*taille etoile*/
+
+.star {
+    width: 60px;
+}
+
+/*imagegauche*/
+
+  .imagegauche {
+    width: 400px;
+    border-radius: 5%;
+    justify-content: left; 
+  }
+
+
+/*logo*/
+
+.logo {
+    width: 40px;
+}
+
+
+
+
+
+
+.text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(50, 50, 50); 
+    text-align: center;
+}
